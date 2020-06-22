@@ -63,11 +63,32 @@
       </div>
     </nav>
     <main class="page contact-page">
-      <section class="portfolio-block contact">
+    <style>
+      section.block-intro {margin-bottom: 0; padding-bottom: 0;}
+    </style>
+      <section class="portfolio-block block-intro">
         <div class="container">
           <div class="heading">
             <h2>Contact me</h2>
           </div>
+          <div
+            class="avatar"
+            style="
+              background-image: url('assets/img/avatars/Photo%20Nov%2015,%204%2044%2044%20PM.jpg');
+            "
+          ></div>
+          <div class="about-me">
+            <p>
+              Thank you for taking the time to reach out to me, I really appreciate it! <br> Please fill out the form below to send a message that will be delivered with high priority to my inbox and I will respond as soon as possible.
+            </p>
+              <p>
+                Make it a great day, <br>
+                <strong>Bryndon Humphrey</strong>
+              </p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-block contact">
           <form
             action="http://formspree.io/bryndonhumphrey@gmail.com"
             method="POST"
@@ -105,7 +126,34 @@
                 class="form-control item"
                 id="message"
                 name="message"
-              ></textarea>
+                rows="40"
+              >
+            Question:   What is the name of the company? 
+            Answer:     
+            
+            Question:   What is the title of the position, along with the name of the department/team? 
+            Answer:     
+
+            Question:   What is the description of the role? Feel free to link to a public job posting for the postion to save time!
+            Answer:     
+
+            Question:   Is this a full time, part time, contract, or freelance position? If contract or freelance what is the expected duration?
+            Answer:     
+
+            Question:   What is the expected salary range for the position? Are there any other company provided benefits to account for?
+            Answer:     
+
+            Question:   When works best for you to chat over the phone about this opportunity in more detail?
+            Answer:     
+
+            Question:   What is best way to contact you?
+            Answer:     
+
+            Question:   Are there any other details or pieces of information you would like add onto this message?
+            Answer:     
+
+            </textarea
+              >
             </div>
             <div class="form-group">
               <button
