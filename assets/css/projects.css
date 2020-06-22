@@ -34,3 +34,19 @@ a.btn.btn-outline-warning.btn-sm:hover {
   color: white;
   background-color: f0ad4e;
 }
+
+.nobull {
+  list-style-type: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+.portfolio-block.projects-cards .list a {
+  color: #f0ad4e;
+}
+
+h6:nth-of-type(3n + 1) {
+  margin-top: 20px;
+}
