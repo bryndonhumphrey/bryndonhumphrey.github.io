@@ -1,0 +1,36 @@
+p {
+  padding-top: 8px;
+}
+
+.portfolio-block.projects-cards a.link-text {
+  color: #6497b1;
+}
+
+.col-md-6.col-lg-4 {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.graphicdesign {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a.btn.btn-outline-primary.btn-sm {
+  color: #0ea0ff;
+}
+a.btn.btn-outline-primary.btn-sm:hover {
+  color: white;
+}
+
+a.btn.btn-outline-warning.btn-sm {
+  color: #f0ad4e;
+}
+a.btn.btn-outline-warning.btn-sm:hover {
+  color: white;
+  background-color: f0ad4e;
+}
