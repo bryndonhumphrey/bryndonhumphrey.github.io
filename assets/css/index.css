@@ -48,3 +48,8 @@
     display: none;
   }
 }
+
+section.portfolio-block.block-intro.border-bottom {
+  margin-top: 60px;
+  padding-top: 60px;
+}
