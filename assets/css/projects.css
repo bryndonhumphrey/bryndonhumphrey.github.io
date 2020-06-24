@@ -84,3 +84,9 @@ h6:nth-of-type(3n + 1) {
   text-align: center;
   visibility: hidden;
 }
+
+@media screen and (max-width: 425px) {
+  a.limit {
+    display: none;
+  }
+}
