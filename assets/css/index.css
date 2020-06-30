@@ -85,6 +85,7 @@ strong {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
 
   animation: shine 5s linear infinite;
 }
