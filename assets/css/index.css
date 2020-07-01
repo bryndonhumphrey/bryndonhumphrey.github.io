@@ -89,6 +89,7 @@ strong {
 
   animation: shine 5s linear infinite;
   margin: auto;
+  padding: auto;
 }
 
 @keyframes shine {
