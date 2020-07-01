@@ -88,6 +88,8 @@ strong {
   display: inline;
 
   animation: shine 5s linear infinite;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes shine {
