@@ -74,13 +74,22 @@ em {
   font-style: normal;
   font-weight: 600;
 
-  background: linear-gradient(
-    to right,
-    #7f70f5 20%,
-    #0ea0ff 40%,
-    #0ea0ff 60%,
-    #7f70f5 80%
-  );
+  background: linear-gradient(to right, #7f70f5 0%, #0ea0ff 50%, #7f70f5 100%);
+  background-size: 200% auto;
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline;
+
+  animation: shine 5s linear infinite;
+}
+
+emm {
+  font-style: normal;
+  font-weight: 600;
+
+  background: linear-gradient(to right, #0ea0ff 0%, #7f70f5 50%, #0ea0ff 100%);
   background-size: 200% auto;
 
   color: transparent;

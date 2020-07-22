@@ -47,6 +47,14 @@ a.btn.btn-outline-warning.btn-sm:hover {
   color: #f0ad4e;
 }
 
+.portfolio-block.projects-cards .card-body p {
+  text-align: left;
+}
+
+.portfolio-block.projects-cards .graphicdesign .card-body p {
+  text-align: center;
+}
+
 h6:nth-of-type(3n + 1) {
   margin-top: 20px;
 }
