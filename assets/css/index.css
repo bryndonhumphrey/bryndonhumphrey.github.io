@@ -113,6 +113,7 @@ em {
   transform: rotate(30deg);
 
   animation: shine 5s linear infinite;
+  -webkit-box-decoration-break: clone;
 }
 
 
@@ -129,6 +130,7 @@ emm {
   display: inline;
 
   animation: shine 5s linear infinite;
+  -webkit-box-decoration-break: clone;
 }
 
 @keyframes shine {
@@ -202,4 +204,5 @@ emmm {
   display: inline;
 
   animation: shine 5s linear infinite;
+  -webkit-box-decoration-break: clone;
 }
